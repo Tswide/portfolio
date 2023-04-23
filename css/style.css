@@ -1,0 +1,51 @@
+:root {
+    /* Color */
+    --main-color: rgb(235, 235, 235);
+    --second-color: brown;
+    --button-color: brown;
+    --paragraphe-color: rgb(46, 46, 46);
+
+    /* Font */
+    /* Font-size */
+    --title-font-size: 70px;
+    --second-title-font-size: 40px;
+    --paragraphe-size: 20px;
+
+    /* Font-weight */
+    --title-font-weight: 700;
+    --second-title-font-weight: 600;
+    --paragraphe-weight: 400;
+
+    /* Margin */
+    --mg-bottom-section: 50px;
+    --mg-bottom-div: 40px;
+    --mg-bottom: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+menu {
+    list-style-type: none;
+}
+
+li {
+    font-size: var(--paragraphe-size);
+}
+
+a {
+    color: var(--paragraphe-color);
+}
+
+p {
+    font-size: var(--paragraphe-size);
+    font-weight: var(--paragraphe-weight);
+    color: var(--paragraphe-color);
+}

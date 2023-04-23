@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node name="Portfolio Ecole" unique_id="1" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="1" foreground="" ts_creation="1682172347" ts_lastsave="1682172377">
+    <node name="DB" unique_id="2" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1682172377" ts_lastsave="1682172382">
+      <rich_text>DB ADMIN
+
+tableau -&gt; user_admin
+				- id
+				- pseudo
+				-mdp
+				
+		-&gt; article_portfolio
+				- URL photo
+				- titre
+				- racc_description
+				- description
+				- lien_projet</rich_text>
+    </node>
+  </node>
+</cherrytree>
