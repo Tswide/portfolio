@@ -1,5 +1,5 @@
 <?php 
-session_start();
+include_once 'portfolio/includes/header.php';
 if (isset($_SESSION['id']) && isset($_SESSION['pseudo'])) {
 ?>
 
@@ -11,4 +11,5 @@ if (isset($_SESSION['id']) && isset($_SESSION['pseudo'])) {
      header("Location: index.php");
      exit();
 }
+include_once '../includes/footer.php'
 ?>
