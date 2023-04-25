@@ -1,5 +1,5 @@
 <?php 
-include_once 'portfolio/includes/header.php';
+include_once '../includes/header.php';
 if (isset($_SESSION['id']) && isset($_SESSION['pseudo'])) {
 ?>
 

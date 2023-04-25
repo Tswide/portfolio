@@ -1,0 +1,48 @@
+#accueil {
+    height: 100vh;
+    width: 100vw;
+}
+
+.left_column {
+    background-color: blue;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titre_poste_groupe {
+    display: flex;
+    align-items: center;
+}
+
+.titre_poste {
+    margin: 0 10px;
+}
+
+.presentation_poste {
+    font-size: var(--title-font-size);
+}
+
+#barre {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, var(--button-color), var(--paragraphe-color));
+    width: 40px;
+    height: 0;
+}
+
+.groupe_buttons{
+    height: 200px;
+}
+
+.button {
+    padding: 5px 15px;
+}
+
+.dessin_accompagnement {
+    background-image: url(../assets/Union.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

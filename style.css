@@ -1,13 +1,14 @@
 :root {
     /* Color */
-    --main-color: rgb(235, 235, 235);
-    --second-color: brown;
-    --button-color: brown;
-    --paragraphe-color: rgb(46, 46, 46);
+    --background-color: #f3e8d8;
+    --main-color: rgb(247, 246, 246);
+    --second-color: #ffb23e;
+    --button-color: #ff9900;
+    --paragraphe-color: rgb(0, 0, 0);
 
     /* Font */
     /* Font-size */
-    --title-font-size: 70px;
+    --title-font-size: 60px;
     --second-title-font-size: 40px;
     --paragraphe-size: 20px;
 
@@ -31,23 +32,18 @@
 }
 
 body {
-    background-color: var(--main-color);
+    background-color: var(--background-color);
 }
 
 menu {
     list-style-type: none;
 }
 
-li {
+li, a, p {
     font-size: var(--paragraphe-size);
-}
-
-a {
-    color: var(--paragraphe-color);
 }
 
 p {
     font-size: var(--paragraphe-size);
     font-weight: var(--paragraphe-weight);
-    color: var(--paragraphe-color);
 }
