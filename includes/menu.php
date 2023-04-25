@@ -5,8 +5,8 @@
         <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
         <div class="wrapper">
             <ul>
-                <li><a href="../index.php">Accueil</a></li>
-                <li><a href="#">Compétences</a></li>
+                <li><a href="http://localhost/portfolio/index.php">Accueil</a></li>
+                <li><a href="http://localhost/portfolio/pages/competences.php">Compétences</a></li>
                 <li><a href="#">Formations</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
@@ -14,7 +14,7 @@
             session_start();
             if (isset($_SESSION['id']) && isset($_SESSION['pseudo'])) {
             ?>
-                <li><a href="../portfolio/admin/administration.php">Administration</a></li>
+                <li><a href="http://localhost/portfolio/admin/administration.php">Administration</a></li>
             <?php
             }    
             ?>

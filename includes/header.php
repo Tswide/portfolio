@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="http://localhost/portfolio/css/navbar.css">
     <link rel="stylesheet" href="http://localhost/portfolio/css/accueil.css">
 
+    <link rel="stylesheet" href="http://localhost/portfolio/css/button_custom.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>

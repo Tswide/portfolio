@@ -5,16 +5,25 @@
         <div class="titre_poste_groupe">
             <span id="barre"></span><p class="titre_poste">Développeur Front-end</p>
         </div>
-        <h2 class="presentation_poste">Salut, je suis développeur Front-end!</h2>
+        <h2 class="presentation_poste">Lorem Ipsum!</h2>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente. Ipsum, expedita magnam at reprehenderit tempore, ullam debitis sit iure, nesciunt dolor aliquam fuga porro animi itaque asperiores mollitia cumque.</p>
         <div class="groupe_buttons">
             <div class="buttons">
-                <button class="button"><p>Projects</p></button>
-                <button class="button"><p>Contactez moi</p></button>
+                <a href="#" class="button_custom">
+                    <div class="button_custom__line"></div>
+                    <div class="button_custom__line"></div>
+                    <span class="button_custom__text">Projects</span>
+                    <div class="button_custom__drow1"></div>
+                    <div class="button_custom__drow2"></div>
+                </a>
+                <button class="button"><p>Contactez-moi</p></button>
             </div>
-            <span class="dessin_accompagnement"></span>
+            <div class="dessin_accompagnement"></div>
         </div>
     </div>
-    <div class="right_column"></div>
+    <div class="right_column">
+        <!-- <img src="" alt="">  ENLEVER LE FOND -->
+    </div>
 </section>
 
 <?php include_once 'includes/footer.php'; ?>
