@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="http://localhost/portfolio/css/accueil.css">
     <link rel="stylesheet" href="http://localhost/portfolio/css/competences.css">
     <link rel="stylesheet" href="http://localhost/portfolio/css/formation.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/contact.css">
 
     <link rel="stylesheet" href="http://localhost/portfolio/css/button_custom.css">
 

@@ -3,6 +3,7 @@ include_once '../includes/header.php';
 include_once 'functions/validate_data.php';
 
 $pdo = new PDO('mysql:host=localhost;dbname=portfolio_ecole;', 'root', '');
+// array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8')
 
 if(isset($_POST['submit'])) {
     if (isset($_POST['pseudo']) && isset($_POST['mdp'])) {

@@ -9,7 +9,7 @@
                 <li><a href="http://localhost/portfolio/pages/competences.php">Compétences</a></li>
                 <li><a href="http://localhost/portfolio/pages/formation.php">Formations</a></li>
                 <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="http://localhost/portfolio/pages/contact.php">Contact</a></li>
             <?php
             session_start();
             if (isset($_SESSION['id']) && isset($_SESSION['pseudo'])) {

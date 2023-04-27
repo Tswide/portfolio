@@ -39,6 +39,11 @@ menu {
     list-style-type: none;
 }
 
+h2 {
+    font-size: var(--second-title-font-size);
+    font-weight: var(--second-title-font-weight);
+}
+
 li, a, p, h3 {
     font-size: var(--paragraphe-size);
 }
