@@ -7,7 +7,7 @@
             <ul>
                 <li><a href="http://localhost/portfolio/index.php">Accueil</a></li>
                 <li><a href="http://localhost/portfolio/pages/competences.php">Compétences</a></li>
-                <li><a href="#">Formations</a></li>
+                <li><a href="http://localhost/portfolio/pages/formation.php">Formations</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
             <?php

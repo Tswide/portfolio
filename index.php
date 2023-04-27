@@ -22,7 +22,11 @@
         </div>
     </div>
     <div class="right_column">
-        <!-- <img src="" alt="">  ENLEVER LE FOND -->
+        <img src="assets/me.png" alt="Photo de moi">
+        <div class="icons">
+            <i class="uil uil-github"></i>
+            <i class="uil uil-linkedin"></i>
+        </div>
     </div>
 </section>
 

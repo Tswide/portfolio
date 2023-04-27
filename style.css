@@ -2,7 +2,7 @@
     /* Color */
     --background-color: #f3e8d8;
     --main-color: rgb(247, 246, 246);
-    --second-color: #faba5a;
+    --second-color: #fcc168;
     --button-color: #ff9900;
     --paragraphe-color: rgb(0, 0, 0);
 
@@ -19,7 +19,7 @@
 
     /* Margin */
     --mg-bottom-section: 50px;
-    --mg-bottom-div: 40px;
+    --mg-bottom-div: 30px;
     --mg-bottom: 20px;
 }
 
@@ -39,11 +39,24 @@ menu {
     list-style-type: none;
 }
 
-li, a, p {
+li, a, p, h3 {
     font-size: var(--paragraphe-size);
 }
 
 p {
     font-size: var(--paragraphe-size);
     font-weight: var(--paragraphe-weight);
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.titre_page {
+    margin-bottom: var(--mg-bottom-section);
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
 }
