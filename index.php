@@ -20,13 +20,13 @@
             </div>
             <div class="dessin_accompagnement"></div>
         </div>
-    </div>
-    <div class="right_column">
-        <img src="assets/me.png" alt="Photo de moi">
         <div class="icons">
             <i class="uil uil-github"></i>
             <i class="uil uil-linkedin"></i>
         </div>
+    </div>
+    <div class="right_column">
+        <img src="assets/avatar.png" alt="Photo de moi" class="pics_avatar">
     </div>
 </section>
 

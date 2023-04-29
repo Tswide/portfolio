@@ -7,6 +7,17 @@
     margin: 0 5%;
 }
 
+.right_column {
+    background-color: var(--second-color);
+    background-image: url('../assets/topography.svg');
+    height: 100%;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid black;
+}
+
 .titre_poste_groupe {
     display: flex;
     align-items: center;
@@ -67,19 +78,14 @@
 
 /*  */
 
-.right_column {
-    background-color: var(--second-color);
-    height: 100%;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.pics_avatar {
+    height: 40vh;
+    width: auto;
 }
 
 .icons {
     position: absolute;
-    right: 20px;
+    left: 20px;
     display: flex;
     flex-direction: column;
 }
