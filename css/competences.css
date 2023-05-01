@@ -5,7 +5,7 @@
 
 .left_column_competences {
     background-color: var(--second-color);
-    background-image: url(../assets/wiggle.svg);
+    background-image: url(../assets/topography.svg);
     position:absolute;
     left: 0;
     top: 0;
@@ -29,7 +29,7 @@
 }
 
 .contenue_des_competences_skills {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 /* .category_competences {
@@ -54,6 +54,7 @@
     height: 85px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .contenue_outils {
@@ -68,7 +69,6 @@
     align-items: center;
     width: 31%;
     background-color: var(--main-color);
-    margin-right: 2%;
     height: 36px;
 }
   
@@ -96,7 +96,7 @@
 .html {width: 90%;} 
 .css {width: 80%;} 
 .js {width: 75%;}
-.typescript {width: 30%;}
+.typescript {width: 55%;}
 .sass {width: 85%;}
 .tailwind {width: 50%;}
 .react {width: 75%;}

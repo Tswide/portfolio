@@ -20,8 +20,8 @@
                         <div class="skills js">75%</div>
                     </div>
                     <div class="container">
-                        <p class="competences_skill">TSript</p>
-                        <div class="skills typescript">30%</div>
+                        <p class="competences_skill">Typescript</p>
+                        <div class="skills typescript">55%</div>
                     </div>
                 </div>
             </div>

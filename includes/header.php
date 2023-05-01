@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/style.css">
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/css/footer.css">
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/css/navbar.css">
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/css/accueil.css">
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/css/competences.css">
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/css/formation.css">
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/css/contact.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/style.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/footer.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/navbar.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/accueil.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/competences.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/formation.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/contact.css">
 
-    <link rel="stylesheet" href="http://localhost:4040/portfolio/css/button_custom.css">
+    <link rel="stylesheet" href="http://localhost/portfolio/css/button_custom.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
