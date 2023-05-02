@@ -1,28 +1,23 @@
-<?php
+<?php 
+error_reporting(E_ALL);
 
-function filePath()
+function loadData(string $dataname)
 {
-    $filename = __DIR__ . '/../data/projects.json';
-    return $filename;
+    return json_decode(file_get_contents(__DIR__ . '/../data/' . $dataname . '.json'), true);
 }
 
 function getProjects()
 {
-    $filename = filePath();
-    $contents = file_get_contents($filename);
-    $liste = json_decode($contents,true);
-
-    return $liste;
+    return loadData('projects');
 }
 
 function addProject(string $titre, string $description, $url_photo, string $url_site)
 {
-    $filename = filePath();
-    $liste = getProjects();
-    print_r($liste); exit;
+    $projects = loadData('projects');
+    
     $last_id = 1;
-    foreach($liste as $k => $u) {
-        if($last_id <= $u["id"]) $last_id = $u["id"]+1;
+    foreach($projects as $k => $u) {
+        if($last_id <= $u["id"]) $last_id = $u["id"] + 1;
     }
 
     $nouveau = array(
@@ -33,10 +28,12 @@ function addProject(string $titre, string $description, $url_photo, string $url_
         "url_site" => $url_site
     );
 
-    $liste[] = $nouveau;
-    print_r($liste);
-    file_put_contents($filename, json_encode($liste));
+    $projects[] = $nouveau;
+    if(!file_put_contents(__DIR__ . '/../data/projects.json', json_encode($projects)))
+    {
+        throw new Exception("Error adding project", 1);
+        exit();
+    }
 
     return array("success", "Le projet ".$last_id." a bien été ajouté");
 }
-?>

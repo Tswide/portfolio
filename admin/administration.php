@@ -12,7 +12,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['pseudo'])) {
 
     <h1>Hello, <?php echo $_SESSION['pseudo']; ?></h1>
     <a href="functions/logout.php">Logout</a>
-
+    
     <div class="filter add_project">
       <form method="post" enctype="multipart/form-data">
         <div>
@@ -21,6 +21,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['pseudo'])) {
           <label for="description">Description</label>
           <textarea type="text" name="description" required></textarea>
           <label for="url_photo">Url Photo</label> 
+          <input type="file" name="url_photo" accept="image/png image/jpeg" required>
           <label for="url_site">Url Site</label> 
           <input type="text" name="url_site" required>
           <button class="fill" type="submit">Envoyer</button>
