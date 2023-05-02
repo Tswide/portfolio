@@ -1,4 +1,4 @@
-<?php include_once '../includes/header.php'; ?>
+<?php include_once __DIR__ . '/../includes/header.php'; ?>
 
 <section id="contact">
   <div class="left_column_contact">
@@ -37,11 +37,11 @@
         </div>
         <textarea placeholder="Message" name="customerMessage" cols="10" rows="10"></textarea>
         <div id="button">
-          <button type="submit" class="btn_envoyer">Envoyer</button>
+          <button type="submit" class="fill">Envoyer</button>
         </div>
       </form>
     </div>
   </div>
 </section>
 
-<?php include_once '../includes/footer.php'; ?>
+<?php include_once __DIR__ . '/../includes/footer.php'; ?>

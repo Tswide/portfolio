@@ -1,4 +1,4 @@
-<?php include_once '../includes/header.php'; ?>
+<?php include_once __DIR__ . '/../includes/header.php'; ?>
 
 <section class="formation">
     <h1 class="titre_page">Formation</h1>
@@ -18,4 +18,4 @@
     </div>
 </section>
 
-<?php include_once '../includes/footer.php'; ?>
+<?php include_once __DIR__ . '/../includes/footer.php'; ?>

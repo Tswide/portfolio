@@ -1,4 +1,4 @@
-<?php include_once 'includes/header.php'; ?>
+<?php include_once __DIR__ . '/includes/header.php'; ?>
 
 <section id="accueil">
     <div class="left_column">
@@ -16,7 +16,7 @@
                     <div class="button_custom__drow1"></div>
                     <div class="button_custom__drow2"></div>
                 </a>
-                <button class="button"><p>Contactez-moi</p></button>
+                <button class="fill"><p>Contactez-moi</p></button>
             </div>
             <div class="dessin_accompagnement"></div>
         </div>
@@ -30,4 +30,4 @@
     </div>
 </section>
 
-<?php include_once 'includes/footer.php'; ?>
+<?php include_once __DIR__ . 'includes/footer.php'; ?>
