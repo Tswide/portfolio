@@ -1,9 +1,10 @@
 <?php 
 error_reporting(E_ALL);
 require __DIR__ . '/../function/json.php';
+$json = new Json();
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-  $result = addProject($_POST['titre'], $_POST['description'], $_FILES['url_photo'], $_POST['url_site']);
+  $result = $json->addProject($_POST['titre'], $_POST['description'], $_FILES['url_photo'], $_POST['url_site']);
 }
 
 include_once __DIR__ . '/../includes/header.php';

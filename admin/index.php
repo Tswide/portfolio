@@ -11,7 +11,7 @@ if(isset($_POST['submit'])) {
         $mdp = validate($_POST['mdp']);
 
         $stmt = $pdo->prepare("SELECT * FROM user_admin WHERE pseudo = ? AND mdp = ?");
-        $stmt->execute(array($pseudo, $mdp));
+        $stmt->execute([$pseudo, $mdp]);
 
         if($stmt->rowCount() > 0){
             $_SESSION['pseudo'] = $pseudo;
