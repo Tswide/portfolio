@@ -1,7 +1,7 @@
 <nav>
     <div>
         <input type="checkbox" id="active">
-        <h1 class="title_nav">Julien Jcbs</h1>
+        <a href="/portfolio/index.php"><h1 class="title_nav">Julien Jcbs</h1></a>
         <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
         <div class="wrapper">
             <ul>

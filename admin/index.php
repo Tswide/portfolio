@@ -28,14 +28,16 @@ if(isset($_POST['submit'])) {
 }
 ?> 
 
-<form action="" method="post">
-    <label for="pseudo">Pseudo</label>
-    <input type="text" name="pseudo" id="pseudo">
-      
-    <label for="mdp">Mot de passe</label>
-    <input type="password" name="mdp" id="mdp">
+<div class="formulaire_admin">
+    <form action="" method="post" id="form_connexion">
+        <label for="pseudo">Pseudo</label>
+        <input type="text" name="pseudo" id="pseudo">
+        
+        <label for="mdp">Mot de passe</label>
+        <input type="password" name="mdp" id="mdp">
 
-    <input type="submit" name="submit" id="submit" value="Connexion">
-</form>
+        <input type="submit" name="submit" id="submit" value="Connexion">
+    </form>
+</div>
 
 <?php include_once '../includes/footer.php'; ?>

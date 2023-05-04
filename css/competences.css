@@ -21,11 +21,13 @@
 #contenue_des_competences_left {
     background-color: var(--background-color);
     outline: 3px solid black;
+    border-radius: 10px;
 }
 
 #contenue_des_competences_right {
     background-color: var(--second-color);
     outline: 3px solid black;
+    border-radius: 10px;
 }
 
 .contenue_des_competences_skills {

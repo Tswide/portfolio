@@ -10,7 +10,7 @@ class Json{
         return $this->loadData('projects');
     }
 
-    public function addProject(string $titre, string $description, $url_photo, string $url_site)
+    public function addProject(string $titre, string $description, string $description_long, $url_photo, string $url_site)
     {
         $projects = $this->loadData('projects');
         
@@ -19,20 +19,33 @@ class Json{
             if($last_id <= $u["id"]) $last_id = $u["id"] + 1;
         }
 
-        $nouveau = [
-            "id" => $last_id,
-            "titre" => $titre,
-            "description" => $description,
-            "url_photo" => $url_photo,
-            "url_site" => $url_site
-        ];
+        $extension = pathinfo($url_photo['name'], PATHINFO_EXTENSION);
+        $filename = 'project_'.$last_id.'.'.$extension;
+        $upload_path = $_SERVER['DOCUMENT_ROOT'] . '/portfolio/assets/img_projects/' . $filename;
+ 
 
-        $projects[] = $nouveau;
-        if(!file_put_contents(__DIR__ . '/../data/projects.json', json_encode($projects)))
+        if(move_uploaded_file($url_photo['tmp_name'], $upload_path))
         {
-            throw new Exception("Error adding project", 1);
-        }
+            $nouveau = [
+                "id" => $last_id,
+                "titre" => $titre,
+                "description" => $description,
+                "description_long" => $description_long,
+                "url_photo" => '/portfolio/assets/img_projects/' . $filename,
+                "url_site" => $url_site
+            ];
 
-        return(["success", "Le projet ".$last_id." a bien été ajouté"]);
+            $projects[] = $nouveau;
+            if(!file_put_contents(__DIR__ . '/../data/projects.json', json_encode($projects)))
+            {
+                throw new Exception("Error adding project", 1);
+            }
+
+            return(["success", "Le projet ".$last_id." a bien été ajouté"]);
+        }
+        else
+        {
+            throw new Exception("Error uploading photo", 1);
+        }
     }
 }

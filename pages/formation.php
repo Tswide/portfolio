@@ -1,7 +1,6 @@
 <?php include_once __DIR__ . '/../includes/header.php'; ?>
 
 <section class="formation">
-    <h1 class="titre_page">Formation</h1>
     <div class="body_timeline">
         <div class="timeline">
             <div class="timeline-empty"></div>

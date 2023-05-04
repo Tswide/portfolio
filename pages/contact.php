@@ -5,31 +5,37 @@
     <div class="informations">
       <h2 class="title_contact">Crée votre projet</h2>
       <div class="infomations_contact">
-        <div class="information">
-          <div class="icon_contact">
-            <i class="uil uil-user"></i>
+        <a href="mailto:julienjcbs@outlook.fr">
+          <div class="information">
+            <div class="icon_contact">
+              <i class="uil uil-envelope-check"></i>
+            </div>
+            <p class="text_info">julienjcbs@outlook.fr</p>
           </div>
-          <p class="text_info">julienjcbs@outlook.fr</p>
-        </div>
-        <div class="information">
-          <div class="icon_contact">
-            <i class="uil uil-user"></i>
+        </a>
+        <a href="tel:+32493350438">
+          <div class="information">
+            <div class="icon_contact">
+              <i class="uil uil-phone-alt"></i>
+            </div>
+            <p class="text_info">(+32)493 35 04 38</p>
           </div>
-          <p class="text_info">julienjcbs@outlook.fr</p>
-        </div>
-        <div class="information">
-          <div class="icon_contact">
-            <i class="uil uil-user"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/julien-jacobs-b4970b174/">
+          <div class="information">
+            <div class="icon_contact">
+              <i class="uil uil-linkedin-alt"></i>
+            </div>
+            <p class="text_info">@julienjcbs</p>
           </div>
-          <p class="text_info">julienjcbs@outlook.fr</p>
-        </div>
+        </a>
       </div>
     </div>
   </div>
   <div class="right_column_contact">
     <div class="contact-us">
       <h2 class="title_contact">Faites le premier pas</h2>
-      <form action="">
+      <form action="" class="form_contact">
         <div class="inputs">
           <input placeholder="Name" type="text" required="">
           <input placeholder="Email" type="email" name="customerEmail">
