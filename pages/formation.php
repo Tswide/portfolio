@@ -8,10 +8,10 @@
                 <div class="timeline-circle"></div>
             </div>
             <div class="timeline-component timeline-content">
-                <h3>IFAPME</h3>
-                <p>2022 - Maintenant</p>
-                <p>Web Developpeur</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tincidunt nisi. Maecenas quis consectetur nibh, at convallis justo. Vivamus in mi erat. </p>
+                <h3 class="titre_formation">IFAPME</h3>
+                <p class="date_formation">2022 - Maintenant</p>
+                <p class="poste_formation">Web Developpeur</p>
+                <p class="explication_formation">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tincidunt nisi. Maecenas quis consectetur nibh, at convallis justo. Vivamus in mi erat. </p>
             </div>
         </div>
     </div>

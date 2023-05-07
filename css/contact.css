@@ -1,7 +1,4 @@
 .left_column_contact {
-    position:absolute;
-    left: 0;
-    top: 0;
     height: 100vh;
     width: 30vw;
     display: flex;
@@ -13,9 +10,6 @@
 .right_column_contact {
     background-color: var(--second-color);
     background-image: url(../assets/topography.svg);
-    position:absolute;
-    right: 0;
-    top: 0;
     height: 100%;
     width: 70vw;
     display: flex;
@@ -121,7 +115,9 @@
 
 #button {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  align-items: end;
+  height: 50px;
  }
 
 .fill {
@@ -152,4 +148,63 @@
 .fill:hover::after {
   top: 0px;
   left: 0px;
+}
+
+
+@media only screen and (max-width : 1280px) {
+  .left_column_contact {
+    width: 35vw;
+  }
+
+  .right_column_contact {
+    width: 65vw;
+  }
+
+  .contact-us {
+    height: 80%;
+  }
+
+  .form_contact input {
+    height: 2.5rem;
+  }
+
+  .form_contact textarea {
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width : 834px) {
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_column_contact, .right_column_contact {
+    width: 100vw;
+  }
+
+  .left_column_contact{
+    height: 40vh;
+  }
+
+  .right_column_contact{
+    border-left: 0;
+    border-top: 3px solid black;
+  }
+
+  .form_contact textarea {
+    height: 50%;
+  }
+
+  .information {
+    padding: 15px 0 15px 104px
+  }
+
+  .infomations_contact {
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width : 428px) {
+  
 }
