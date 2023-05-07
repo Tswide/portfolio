@@ -1,14 +1,13 @@
 #competences {
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 
 .left_column_competences {
     background-color: var(--second-color);
     background-image: url(../assets/topography.svg);
-    position:absolute;
-    left: 0;
-    top: 0;
+
     height: 100%;
     width: 50vw;
     display: flex;
@@ -106,19 +105,130 @@
 
 .php {width: 40%;}
 .python {width: 60%;} 
-.django {width: 35%;}
+.django {width: 40%;}
 
 /* 
  */
 
 .right_column_competences {
-    position:absolute;
-    right: 0;
-    top: 0;
     height: 100%;
     width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 5vw;
+}
+
+
+/* MediaQuery */
+
+@media only screen and (max-width : 1280px) {
+    .contenue_des_competences_skills {
+        padding: 1rem 1rem;
+    }
+
+    .container {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width : 834px) {
+    #competences {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .left_column_competences {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .right_column_competences {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
+
+    #contenue_des_competences_left {
+        margin: 7vh 0 2rem 0;
+        height: 44vh;
+        width: 80vw;
+    }
+    
+    #contenue_des_competences_right {
+        width: 80vw;
+        height: 36vh;
+    }
+
+    .category_competences {
+        margin-bottom: 0;
+    }
+
+    .contenue_des_competences_skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contenue {
+        height: 60px;
+    }
+
+    .titre_fonction_competence {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width : 428px) {
+    .left_column_competences {
+        padding-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #contenue_des_competences_left {
+        height: 90vh;
+        width: 80vw;
+    }
+    
+    #contenue_des_competences_right {
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .frontCompetence {
+        margin-bottom: 90px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .contenue_outils{
+        gap: 0.5rem;
+    }
+
+    .titre_fonction_competence {
+        font-size: var(--second-title-font-size-mb);
+        margin-bottom: 10px;
+    }
+
+    .titre_competence {
+         font-size: 20px;
+         margin-bottom: 5px;
+    }
+
+    .competences_skill {
+        font-size: 16px;
+    }
+
+    .skills {
+        font-size: 14px;
+    }
+    
+    .container {
+        margin-bottom: 5px;
+        height: 33px;
+    }
 }

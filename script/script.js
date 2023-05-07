@@ -37,7 +37,7 @@ fetch("/portfolio/data/projects.json", {
     const projectsList = document.createElement("div");
     projectsList.className = "contenue_projects";
 
-    data.forEach(project => {
+    data.forEach((project, i) => {
         const flip = document.createElement("div");
         flip.className = "flip";
         flip.setAttribute("data-id", project.id);

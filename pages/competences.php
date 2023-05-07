@@ -4,7 +4,7 @@
     <div class="left_column_competences">
         <div class="contenue_des_competences_skills" id="contenue_des_competences_left">
             <h2 class="titre_fonction_competence">Front-end</h2>
-            <div id="basique" class="category_competences">
+            <div id="basique" class="category_competences frontCompetence">
                 <h3 class="titre_competence">Languages</h3>
                 <div class="contenue">
                     <div class="container">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div id="framework" class="category_competences">
+            <div id="framework" class="category_competences frontCompetence">
                 <h3 class="titre_competence">Frameworks</h3>
                 <div class="contenue">
                     <div class="container">
@@ -78,7 +78,7 @@
                 <div class="contenue">
                     <div class="container">
                         <p class="competences_skill">Django</p>
-                        <div class="skills django">35%</div>
+                        <div class="skills django">40%</div>
                     </div>
                 </div>
             </div>

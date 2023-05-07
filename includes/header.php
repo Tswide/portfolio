@@ -21,6 +21,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+    <script src="https://www.google.com/recaptcha/api.js?render=6Le8euUlAAAAAM2rtzDXU2W8vNJ5y5xJo7UlqdNF"></script>
+
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>

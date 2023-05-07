@@ -35,7 +35,7 @@
   <div class="right_column_contact">
     <div class="contact-us">
       <h2 class="title_contact">Faites le premier pas</h2>
-      <form action="" class="form_contact">
+      <form action="/../function/form.php" class="form_contact">
         <div class="inputs">
           <input placeholder="Name" type="text" required="">
           <input placeholder="Email" type="email" name="customerEmail">
@@ -43,11 +43,27 @@
         </div>
         <textarea placeholder="Message" name="customerMessage" cols="10" rows="10"></textarea>
         <div id="button">
+          <div class="g-recaptcha" data-sitekey="6Le8euUlAAAAAM2rtzDXU2W8vNJ5y5xJo7UlqdNF"></div>
           <button type="submit" class="fill">Envoyer</button>
         </div>
       </form>
     </div>
   </div>
 </section>
+
+<script>
+    $('.form_contact').submit(function(event) {
+        event.preventDefault();
+        let email = $('#email').val();
+ 
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Le8euUlAAAAAM2rtzDXU2W8vNJ5y5xJo7UlqdNF', {action: 'sendmail'}).then(function(token) {
+                $('.form_contact').prepend('<input type="hidden" name="token" value="' + token + '">');
+                $('.form_contact').prepend('<input type="hidden" name="action" value="sendmail">');
+                $('.form_contact').unbind('submit').submit();
+            });;
+        });
+  });
+</script>
 
 <?php include_once __DIR__ . '/../includes/footer.php'; ?>

@@ -204,3 +204,14 @@
     0%   { width : 0 ; }
     100% { width : 124px ; }
 }
+
+
+@media only screen and (max-width : 428px) {
+    .button_custom__text {
+        font-size: var(--paragraphe-size-mb) - 2px;
+    }
+
+    .button_custom {
+        margin-right: 5px;
+    }
+}

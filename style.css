@@ -12,6 +12,10 @@
     --second-title-font-size: 40px;
     --paragraphe-size: 20px;
 
+    --title-font-size-mb: 30px;
+    --second-title-font-size-mb: 25px;
+    --paragraphe-size-mb: 18px;
+
     /* Font-weight */
     --title-font-weight: 700;
     --second-title-font-weight: 600;
@@ -63,4 +67,18 @@ section {
 a {
     color: var(--paragraphe-color);
     text-decoration: none;
+}
+
+@media only screen and (max-width : 428px) {
+    h2 {
+        font-size: var(--second-title-font-size-mb);
+    }
+    
+    li, a, p, h3 {
+        font-size: var(--paragraphe-size-mb);
+    }
+    
+    p {
+        font-size: var(--paragraphe-size-mb);
+    }
 }
