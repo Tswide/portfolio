@@ -7,7 +7,7 @@ function displayModal(project) {
           <img src="${project.url_photo}" class="modalImage"/>
           <h2 id="modalTitle">${project.titre}</h2>
           <p id="modalDescription">${project.description_long}</p>
-          <a href="${project.url_site}" class="modalUrl">${project.titre}</a>
+          <a href="${project.url_site}" class="modalUrl"><button class='fill'>Lien vers le site</button></a>
       </div>
     `;
     document.body.appendChild(modal);

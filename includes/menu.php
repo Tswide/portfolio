@@ -2,7 +2,7 @@
     <div>
         <input type="checkbox" id="active">
         <a href="/portfolio/index.php"><h1 class="title_nav">Julien Jcbs</h1></a>
-        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <label for="active" class="menu-btn"><i class="uil uil-bars"></i></label>
         <div class="wrapper">
             <ul>
                 <li><a href="/portfolio/index.php">Accueil</a></li>

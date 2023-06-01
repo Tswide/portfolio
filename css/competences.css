@@ -143,6 +143,8 @@
         width: 100vw;
         display: flex;
         align-items: center;
+        border-left: 0;
+        border-bottom: 3px solid black;
     }
 
     .right_column_competences {

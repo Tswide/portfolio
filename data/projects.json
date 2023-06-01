@@ -3,21 +3,23 @@
         "id":1,
         "titre":"SportMotor",
         "description":"Pour ce site le prof nous a demander d'utiliser jquery, php et faire une connexion json entre ces techno",
+        "description_long":"Développement d'une interface de connexion, d'affichage d'articles et de gestion du panier d'achats. Formulaire de connexion avec vérification dans un fichier JSON. Affichage d'articles avec filtres dynamiques (prix, catégorie, recherche). Panier avec ajustement de quantité, sauvegarde dans des cookies. Évaluation du projet selon critères (demandes, code, graphisme).",
         "url_photo":"\/portfolio\/assets\/cars.png",
-        "url_site":"google.com"
+        "url_site":"https://github.com/Tswide/SportMotor"
     },
     {
-        "id":2,
-        "titre":"SportMotor",
-        "description":"Pour ce site le prof nous a demander d'utiliser jquery, php et faire une connexion json entre ces techno",
-        "url_photo":"\/portfolio\/assets\/cars.png",
-        "url_site":"google.com"
+        "id":2,"titre":"CaloPeinture",
+        "description":"Refont du site https://biancolacalo.wixsite.com/calo-peinture",
+        "description_long":"Transformation du site de 'Calo Peinture' pour le mettre au goût du jour : Calogero, peintre en bâtiments et professeur à l'ICADI, a créé un site pour ses élèves afin de faciliter leur réussite scolaire. Il m'a aimablement demandé de le mettre à jour.",
+        "url_photo":"\/portfolio\/assets\/img_projects\/calo_peinture.png",
+        "url_site":"https://calo-peinture.vercel.app/"
     },
     {
         "id":3,
-        "titre":"SportMotor",
-        "description":"Pour ce site le prof nous a demander d'utiliser jquery, php et faire une connexion json entre ces techno",
-        "url_photo":"\/portfolio\/assets\/cars.png",
-        "url_site":"google.com"
+        "titre":"Results-summary",
+        "description":"Projects https://www.frontendmentor.io/",
+        "description_long":"Le but de Frontend Mentor est de défier les développeurs web front-end avec une gamme de challenges allant des plus faciles aux plus difficiles.",
+        "url_photo":"\/portfolio\/assets\/img_projects\/active-states.jpg",
+        "url_site":"https://github.com/Tswide/Results-summary-component"
     }
 ]
