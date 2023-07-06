@@ -33,10 +33,6 @@
     padding: 3rem 2rem;
 }
 
-/* .category_competences {
-    height: 180px;
-} */
-
 .titre_fonction_competence {
     font-size: var(--second-title-font-size);
     margin-bottom: var(--mg-bottom-section);
@@ -64,59 +60,20 @@
 }
 
 .container {
-    border: 1px solid black;
-    position: relative;
     display: flex;
     align-items: center;
-    width: 31%;
-    background-color: var(--main-color);
-    height: 36px;
-}
-  
-.competences_skill {
-    position: absolute;
-    left: 5px;
-}
-
-.outils {
-    background-color: var(--button-color);
-    height: 34px;
-    padding: 0 10px;
-    margin-right: 10px;
 }
 
 .skills {
-    padding: 5px 0;
-    background-color: var(--button-color);
-    text-align: right; /* Right-align text */
-    color: var(--paragraphe-color); /* White text color */
+    font-size: 16px;
+    font-weight: var(--paragraphe-weight);
 }
-/* 
- */
-
-.html {width: 90%;} 
-.css {width: 80%;} 
-.js {width: 75%;}
-.typescript {width: 55%;}
-.sass {width: 85%;}
-.tailwind {width: 50%;}
-.react {width: 75%;}
-.vue {width: 45%;}
-
-.php {width: 40%;}
-.python {width: 60%;} 
-.django {width: 40%;}
 
 /* 
  */
 
 .right_column_competences {
     height: 100%;
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 5vw;
 }
 
 
